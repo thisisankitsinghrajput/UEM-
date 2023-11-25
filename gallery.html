@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" type="text/css" href="lightbox2-2.11.4/dist/css/lightbox.min.css">
+    <script type="text/javascript" src="lightbox2-2.11.4/dist/js/lightbox-plus-jquery.min.js">
+    </script>
+    <title>Image Gallery</title>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Image Gallery</h1>
+    </section>
+
+
+    <!-- <div class="Acontainer">
+
+        <div class="gallery">
+            <a href="New folder/logo (1).wepb" data-lightbox="mygallery" data-title="This is Nothing"><img src="New folder/logo (1).wepb"></a>
+            <a href="images/logo (1).webp" data-lightbox="mygallery"
+                data-title="<span style='font-weight: bold; font-size: 18px;'> This is Nothing </span>"><img
+                    src="images/logo (1).webp"></a>
+            <a href="images/logo (2).webp" data-lightbox="mygallery"
+                data-title="<span style='font-weight: bold; font-size: 18px;'> This is Nothing </span>"><img
+                    src="images/logo (2).webp"></a>
+            <a href="images/logo (3).webp" data-lightbox="mygallery"
+                data-title="<span style='font-weight: bold; font-size: 18px;'> This is Nothing </span>"><img
+                    src="images/logo (3).webp"></a>
+            <a href="images/logo (4).webp" data-lightbox="mygallery"
+                data-title="<span style='font-weight: bold; font-size: 18px;'> This is Nothing </span>"><img
+                    src="images/logo (4).webp"></a>
+            <a href="images/logo (5).webp" data-lightbox="mygallery"
+                data-title="<span style='font-weight: bold; font-size: 18px;'> This is Nothing </span>"><img
+                    src="images/logo (5).webp"></a>
+            <a href="New folder/logo (6).jpg" data-lightbox="mygallery" data-title="<span style='font-weight: bold; font-size: 18px;'> This is Nothing </span>"><img src="New folder/logo (6).jpg"></a>
+
+        </div>
+
+    </div>
+
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4"> -->
+    <!-- <input type="radio" name="Photos" id="check" /> -->
+
+
+    <div class="container">
+        <h1>CAMPUS</h1>
+    </div>
+
+    <div class="photo-gallery">
+        <a href="images/DSC_0665-1.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>ACADEMIC</span>">
+            <div class="pic" data-hover-text="ACADEMIC">
+                <img src="images/DSC_0665-1.webp" alt="Image 1">
+            </div>
+        </a>
+        <a href="images/DSC_0677.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>ACADEMIC</span>">
+            <div class="pic" data-hover-text="ACADEMIC">
+                <img src="images/DSC_0677.webp" alt="Image 2">
+            </div>
+        </a>
+        <a href="images/DSC_0683.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>ACADEMIC</span>">
+            <div class="pic" data-hover-text="ACADEMIC">
+                <img src="images/DSC_0683.webp" alt="Image 3">
+            </div>
+        </a>
+        <!-- Add more image divs as needed -->
+    </div>
+
+    <div class="container">
+        <h1>HOSTEL</h1>
+    </div>
+
+    <div class="photo-gallery">
+        <a href="images/Boys_Hostel.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>BOYS</span>">
+            <div class="pic" data-hover-text="BOYS">
+                <img src="images/Boys_Hostel.webp" alt="Image 4">
+            </div>
+        </a>
+        <a href="images/Girls_Hostel.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>GIRLS</span>">
+            <div class="pic" data-hover-text="GIRLS">
+                <img src="images/Girls_Hostel.webp" alt="Image 5">
+            </div>
+        </a>
+        <a href="images/Faculty__Stuff_Quarter.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>Staff Quarter</span>">
+            <div class="pic" data-hover-text="Staff Quarter">
+                <img src="images/Faculty__Stuff_Quarter.webp" alt="Image 6">
+            </div>
+        </a>
+        <!-- Add more image divs as needed -->
+    </div>
+
+    <div class="container">
+        <h1>ACADEMIC</h1>
+    </div>
+
+    <div class="photo-gallery">
+        <a href="images/Computer_Lab.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>COMPUTER LAB</span>">
+            <div class="pic" data-hover-text="COMPUTER LAB">
+                <img src="images/Computer_Lab.webp" alt="Image 7">
+            </div>
+        </a>
+        <a href="images/Library2.webp" data-lightbox="mygallery"
+            data-title="<span style='font-weight: bold; font-size: 18px;'>LIBRARY</span>">
+            <div class="pic" data-hover-text="LIBRARY">
+                <img src="images/Library2.webp" alt="Image 8">
+            </div>
+        </a>
+        <!-- Add more image divs as needed -->
+    </div>
+
+    <!-- Include the lightbox2 JavaScript and initialize it -->
+    <script src="path/to/lightbox2.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            // Add any other options you want to customize
+        });
+    </script>
+
+
+    <!-- <div class="container">
+        <h1>CAMPUS</h1>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="pic" data-hover-text="ACADEMIC">
+            <img src="images/DSC_0665-1.webp" alt="Image 1">
+        </div>
+        <div class="pic" data-hover-text="ACADEMIC">
+            <img src="images/DSC_0677.webp" alt="Image 2">
+        </div>
+        <div class="pic" data-hover-text="ACADEMIC">
+            <img src="images/DSC_0683.webp" alt="Image 2">
+            
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <h1>HOSTEL</h1>>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="pic" data-hover-text="BOYS">
+            <img src="images/Boys_Hostel.webp" alt="image 2">
+        </div>
+        <div class="pic" data-hover-text="GIRLS">
+            <img src="images/Girls_Hostel.webp" alt="Image 2">
+        </div>
+        <div class="pic" data-hover-text="Staff Quarter">
+            <img src="images/Faculty__Stuff_Quarter.webp" alt="Image 2">
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <h1>ACADEMIC</h1>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="pic" data-hover-text="COMPUTER LAB">
+            <img src="images/Computer_Lab.webp" alt="Image 1">
+        </div>
+        <div class="pic" data-hover-text="LIBRARY">
+            <img src="images/Library2.webp" alt="Image 2">
+        </div>
+        
+    </div> -->
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This is the About Text of Our Website</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i> <!-- Use "fab" for brand icons -->
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fas fa-heart"></i> Ankit</p> <!-- Use "fas" for solid icons -->
+    </section>
+
+
+    <!-- Javascript for Toggle  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
